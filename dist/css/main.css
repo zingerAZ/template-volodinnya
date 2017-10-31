@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body hr {
+    width: 320px; }
+
+section h1 {
+  padding-top: 50px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color: #204d74;
+  font-weight: bold;
+  margin: 20px; }
+
+.glyphicon-earphone, .glyphicon-home, .glyphicon-user, .glyphicon-envelope {
+  color: #006400; }
+
+.glyphicon-map-marker, .glyphicon-phone {
+  color: #204d74; }
+
+/*--------------------------------------------*/
+/*                HEADER  starts             */
+/*------------------------------------------*/
+.logo span {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 22px;
+  color: #204d74;
+  font-weight: bold;
+  position: relative;
+  top: 5px; }
+
+.logo b {
+  color: #006400; }
+
+.menu {
+  padding-top: 30px; }
+  .menu ul {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    float: right; }
+  .menu li {
+    display: inline; }
+  .menu a {
+    text-decoration: none;
+    color: #204d74;
+    margin-right: 30px; }
+    .menu a:hover {
+      opacity: 0.8;
+      -webkit-transition: .7s;
+      transition: .7s; }
+
+.phone {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #204d74; }
+  .phone ul {
+    padding-top: 15px;
+    padding-left: 0;
+    list-style: none; }
+  .phone span {
+    color: #006400;
+    opacity: 0.8; }
+
+/*--------------------------------------------*/
+/*                HEADER  ends               */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*                MAIN  starts               */
+/*------------------------------------------*/
+#main {
+  background: url("../img/bentley.jpg");
+  background-size: cover;
+  height: auto; }
+
+.main-content h1 {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 200px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 1px 2px black; }
+
+.main-content p {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  text-align: center; }
+
+.main-content button {
+  font-size: 17px;
+  width: 160px;
+  height: 55px;
+  letter-spacing: .5px;
+  -webkit-border-radius: 8px 16px;
+          border-radius: 8px 16px;
+  border-color: #204d74;
+  background-color: #204d74;
+  color: white; }
+  .main-content button:hover {
+    -webkit-transition: .7s;
+    transition: .7s; }
+
+/*--------------------------------------------*/
+/*                MAIN  ends                 */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*          ABOUTCOMPANY starts              */
+/*------------------------------------------*/
+.description {
+  font-size: 23px;
+  text-align: center; }
+
+.aboutus2 {
+  text-align: center;
+  margin-top: 20px; }
+  .aboutus2 p {
+    font-size: 21px; }
+
+/*--------------------------------------------*/
+/*          ABOUTCOMPANY ends                */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*               SERVICES  starts            */
+/*------------------------------------------*/
+.services {
+  text-align: center; }
+  .services p {
+    font-size: 19px; }
+  .services h2 {
+    font-weight: bold; }
+  .services li {
+    font-size: 19px;
+    list-style: none; }
+
+.service {
+  padding-top: 50px; }
+
+/*--------------------------------------------*/
+/*               SERVICES  ends              */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*               COST  starts                */
+/*------------------------------------------*/
+.carousel-caption {
+  position: absolute;
+  bottom: 160px; }
+  .carousel-caption h2 {
+    text-shadow: 1px 1px black; }
+  .carousel-caption p {
+    font-size: 19px;
+    text-shadow: 1px 1px black; }
+  .carousel-caption button {
+    font-size: 17px;
+    width: 160px;
+    height: 55px;
+    letter-spacing: .5px;
+    -webkit-border-radius: 8px 16px;
+            border-radius: 8px 16px;
+    border-color: #204d74;
+    background-color: #204d74;
+    color: white; }
+    .carousel-caption button:hover {
+      -webkit-transition: .7s;
+      transition: .7s; }
+
+/*--------------------------------------------*/
+/*               COST  ends                  */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*               About_costs  starts         */
+/*------------------------------------------*/
+.about_costs {
+  padding-top: 20px; }
+  .about_costs h3 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline; }
+  .about_costs li {
+    list-style: none;
+    font-size: 19px; }
+
+.about_costs_part1 {
+  border: 2px dotted #204d74;
+  margin-right: 30px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding-right: 10px; }
+
+/*--------------------------------------------*/
+/*               About_costs  ends           */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*               CONTACTS  starts            */
+/*------------------------------------------*/
+.contacts {
+  padding-bottom: 20px; }
+  .contacts p {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px; }
+  .contacts iframe {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    border-shadow: 1px 1px gray;
+    margin: 20px 0; }
+  .contacts ul {
+    margin: 0;
+    padding-left: 25px; }
+  .contacts li {
+    font-size: 22px;
+    color: #006400; }
+    .contacts li span {
+      color: black; }
+
+/*--------------------------------------------*/
+/*               CONTACT ends                */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*              FOOTER  starts               */
+/*------------------------------------------*/
+footer {
+  background-color: #202020;
+  background-size: cover;
+  max-width: 100%;
+  height: auto; }
+  footer .logo-bottom {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    footer .logo-bottom b {
+      font-size: 28px;
+      font-family: 'Times New Roman', sans-serif;
+      color: white;
+      font-weight: bold; }
+    footer .logo-bottom p {
+      font-family: 'Times New Roman', sans-serif;
+      font-size: 16px;
+      color: white;
+      font-weight: bold; }
+  footer .menu-bottom {
+    margin: 0;
+    padding: 0; }
+    footer .menu-bottom ul {
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 19px;
+      list-style: none;
+      padding-top: 30px; }
+    footer .menu-bottom li {
+      display: inline; }
+    footer .menu-bottom a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      margin-right: 30px; }
+      footer .menu-bottom a:hover {
+        opacity: 0.8;
+        -webkit-transition: .5s;
+        transition: .5s; }
+
+/*--------------------------------------------*/
+/*               FOOTER  ends                */
+/*------------------------------------------*/
+
+/*--------------------------------------------*/
+/*               MOBILE MENU                 */
+/*------------------------------------------*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding-top: 20px; }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: #C0C0C0;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .sidenav a:hover {
+    color: white; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+.menu-xs-top {
+  font-size: 35px;
+  color: #204d74;
+  top: 25px; }
+
+.menu-xs-bottom a {
+  margin: 5px;
+  color: white; }
+
+.menu-xs-bottom nav {
+  text-align: center;
+  padding: 20px; }
+
+.logo-bottom-xs b {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif;
+  color: white; }
+
+.logo-bottom-xs p {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif; }
+
+.new-content h2 {
+  font-size: 24px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #204d74; }
+
+.new-content li {
+  list-style: none;
+  margin-left: -15px;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif; }
+
+.new-content span {
+  color: #006400; }
